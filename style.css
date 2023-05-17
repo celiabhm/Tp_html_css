@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+form{
+    margin: 100px auto 0 auto;
+    width: 600px;
+    background-color: rgb(55, 186, 226);
+    border: solid;
+    border-radius: 10px;
+}
+
+form input{
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

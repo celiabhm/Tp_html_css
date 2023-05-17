@@ -1,0 +1,102 @@
+/* HAUT DE PAGE */
+
+header{
+    background-color:rgb(148, 17, 17);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family:serif;
+    margin-left: 15%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* CORPS DE PAGE */
+
+.corps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    place-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+h2{
+    text-align: center;
+}
+article{
+    width: 400px;
+    padding: 30px;
+}
+.corps article:nth-child(1){
+    border:solid 3px rgb(132, 192, 231);
+    justify-self: center;
+    text-align: center;
+    
+}
+
+.corps article:nth-child(2){
+    border:solid 3px rgba(255, 153, 0, 0.842);
+    justify-self: center;
+    text-align: center;
+    
+}
+
+.corps article:nth-child(3){
+    border:solid 3px red;
+    justify-self: center;
+    text-align: center;
+}
+
+.corps article:nth-child(4){
+    border:solid 3px green;
+    justify-self: center;
+    text-align: center;
+    
+}
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: rgb(148, 17, 17);
+    padding:25px;
+}
+
+a{
+    color:white;
+}
+
+label#mail{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    
+}
+
+input#mail{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 25px;
+    width:20%;
+}
+
+input#aller{
+    background-color:  rgb(132, 192, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
